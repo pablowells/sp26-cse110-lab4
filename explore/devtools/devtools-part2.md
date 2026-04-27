@@ -1,0 +1,2 @@
+1. Both num1 and num2 are strings. When num1 and num2 are added, by Javascript convention, result is a string formed by the concatenation of num1 and num2. Obviously, 23 is not the sum of 2 + 3, but it is the concatenation.
+2. I would fix this by casting the inputs to num1 and num2 as numbers. This would make Javascript interpret the 'num1 + num2' as adding two numbers. Therefore, yielding the correct result.
